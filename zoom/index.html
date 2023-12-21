@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>En anslutningsplattform | Zoom</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+
+    <!-- ville ha navbaren sticky på desktop, men fick det inte att funka att ta bort sticky för  mobil.  -->
+    <nav
+      class="flex flex-col p-2 border-b-2 top-0 bg-white opacity-95 md:flex-row items-center justify-between"
+    >
+      <h1 class="text-teal-800 font-thin text-6xl md:inline-block mb-2 md:mb-0">
+        ZOOM
+      </h1>
+      <ul class="flex flex-col md:flex-row justify-between align-baseline">
+        <li
+          class="p-2 items text-teal-700 font-thin text-3xl transition duration-200 hover:text-teal-500"
+        >
+          Produkter
+        </li>
+        <li
+          class="p-2 text-teal-700 font-thin text-3xl transition duration-200 hover:text-teal-500"
+        >
+          Lösningar
+        </li>
+        <li
+          class="p-2 text-teal-700 font-thin text-3xl transition duration-200 hover:text-teal-500"
+        >
+          Resurser
+        </li>
+        <li
+          class="p-2 text-teal-700 font-thin text-3xl transition duration-200 hover:text-teal-500"
+        >
+          Planer och priser
+        </li>
+      </ul>
+
+      <div class="flex flex-col md:flex-row items-center">
+        <button
+          class="p-2 text-white font-thin text-xl bg-teal-700 rounded-lg mb-2 md:mb-0 md:mr-2"
+        >
+          Kontakta Säljavdelningen
+        </button>
+        <button
+          class="p-2 text-white font-thin text-xl bg-teal-700 rounded-lg mb-2 md:mb-0 md:mr-2"
+        >
+          Registrera dig gratis | Zoom
+        </button>
+      </div>
+    </nav>
+
+    <!-- hero/sektion 1 -->
+    <div class="w-screen mt-10 mb-10 md:flex items-center justify-center">
+      <!-- textdiv vänster -->
+      <div class="p-4 md:w-1/2 text-center">
+        <h2 class="m-2 text-teal-800 font-thin text-6xl">
+          En plattform för att komma i kontakt
+        </h2>
+        <p class="m-2 font-thin text-2xl mt-4 text-center">
+          Sammanför team, omforma arbetsplatser, engagera nya målgrupper och
+          gläd dina kunder - allt på Zoom-plattformen du känner till och älskar.
+        </p>
+        <button
+          class="m-2 p-2 text-white font-thin text-2xl bg-teal-700 rounded-lg"
+        >
+          Planer och Priser
+        </button>
+        <button
+          class="m-2 p-2 text-white font-thin text-2xl bg-teal-800 rounded-lg"
+        >
+          Registrera Dig, Det Är Gratis
+        </button>
+      </div>
+      <!-- bilddiv höger -->
+      <div class="p-4 md:w-1/2">
+        <img
+          src="images/placeholder.jpg"
+          alt="remote worker with in zoom call"
+          width="500"
+          height="auto"
+        />
+      </div>
+    </div>
+
+    <!-- sektion 2 -->
+    <div
+      class="pt-6 bg-teal-950 w-screen h-52 md: flex-col items-center justify-center text-center"
+    >
+      <div class="justify-center">
+        <h2
+          class="text-base mt-2 text-white font-thin align-middle md:text-6xl"
+        >
+          Flexibla lösningar för modernt teamsamarbete
+        </h2>
+      </div>
+
+      <!-- div för knappar -->
+      <div class="pt-6 flex gap-4 justify-center">
+        <button class="bg-white text-teal-950 px-4 py-2 rounded-full">
+          Zoom One
+        </button>
+        <button class="bg-white text-teal-950 px-4 py-2 rounded-full">
+          Spaces
+        </button>
+        <button class="bg-white text-teal-950 px-4 py-2 rounded-full">
+          Events
+        </button>
+        <button class="bg-white text-teal-950 px-4 py-2 rounded-full">
+          Contact Center
+        </button>
+        <button class="bg-white text-teal-950 px-4 py-2 rounded-full">
+          Developers
+        </button>
+      </div>
+    </div>
+
+    <!-- sektion 3 -->
+    <div
+      class="pt-16 w-screen text-center mt-10 mb-10 md:flex items-center justify-center"
+    >
+      <!-- bilddiv vänster -->
+      <div class="p-4 md:w-2/3 flex items-center justify-center">
+        <img
+          src="images/img1.jpeg"
+          alt="colleges discussin in front of presentation"
+          width="500"
+          height="auto"
+        />
+      </div>
+      <!-- textdiv höger -->
+      <div class="p-4 md:w-1/2 text-left">
+        <h2 class="text-teal-800 font-thin text-6xl">
+          Enhetlig kommunikation och samarbetsplattform
+        </h2>
+        <p class="font-thin text-2xl mt-4">
+          Skapa meningsfulla kontakter med möten, teamchatt, whiteboard, telefon
+          och mer i ett erbjudande.
+        </p>
+        <!-- div med symboler -->
+        <div>
+          <a href="#">Virtuella möten</a>
+          <a href="#">Teamchatt</a>
+          <a href="#">VoIP-telefonsystem</a>
+          <a href="#">whiteboard online</a> <br />
+          <a href="#">Samtalsintelligens</a>
+          <a href="#">E-post och kalender</a>
+          <a href="#">Virtuella arbetsplatser</a>
+        </div>
+
+        <button
+          class="mt-2 p-2 text-teal-800 font-thin text-xl bg-teal-50 rounded-lg"
+        >
+          Upptäck Zoom One
+        </button>
+      </div>
+    </div>
+
+    <!-- sektion 4 -->
+    <div
+      class="pt-6 bg-teal-950 w-screen h-72 md:flex items-center justify-center text-center"
+    >
+      <!-- textdiv vänster -->
+      <div class="max-w-3xl">
+        <h2 class="p-4 text-lg text-white font-thin text-center md:text-6xl">
+          Gör arbetet mindre arbetsamt
+        </h2>
+        <p
+          class="p-4 mt-2 text-base text-white font-thin text-center md:text-xl"
+        >
+          Kommunicera och samarbeta så att ni kan arbeta bättre ihop. Enkelt att
+          hantera och härligt att använda – Zoom driver den moderna
+          arbetsstyrkan.
+        </p>
+      </div>
+    </div>
+
+    <!-- sektion 5 - social proof -->
+    <div class="pt-14 text-center flex-row">
+      <!-- rubrik, centrerad -->
+      <h2 class="mt-2 text-teal-800 font-thin text-6xl">
+        Betrodd av företag, älskad av människor
+      </h2>
+
+      <!-- div container -->
+      <div class="w-screen text-center :md:flex items-center justify-center">
+        <!-- grid-div for logon 3x4 -->
+        <div class="w- h-96 grid grid-cols-4 gap-4">
+          <div class="p-4 flex items-center justify-center">
+            <img
+              src="images/logo1-1.png"
+              alt="Logo 1"
+              class="max-w-full max-h-full"
+            />
+          </div>
+          <div class="p-4 flex items-center justify-center">
+            <img
+              src="images/logo1-2.png"
+              alt="Logo 1"
+              class="max-w-full max-h-full"
+            />
+          </div>
+          <div class="p-4 flex items-center justify-center">
+            <img
+              src="images/logo1-3.png"
+              alt="Logo 1"
+              class="max-w-full max-h-full"
+            />
+          </div>
+          <div class="p-4 flex items-center justify-center">
+            <img
+              src="images/logo2-1.png"
+              alt="Logo 1"
+              class="max-w-full max-h-full"
+            />
+          </div>
+          <div class="p-4 flex items-center justify-center">
+            <img
+              src="images/logo2-2.png"
+              alt="Logo 1"
+              class="max-w-full max-h-full"
+            />
+          </div>
+          <div class="p-4 flex items-center justify-center">
+            <img
+              src="images/logo2-3.png"
+              alt="Logo 1"
+              class="max-w-full max-h-full"
+            />
+          </div>
+          <div class="p-4 flex items-center justify-center">
+            <img
+              src="images/logo3-1.png"
+              alt="Logo 1"
+              class="max-w-full max-h-full"
+            />
+          </div>
+          <div class="p-4 flex items-center justify-center">
+            <img
+              src="images/logo3-2.png"
+              alt="Logo 1"
+              class="max-w-full max-h-full"
+            />
+          </div>
+          <div class="p-4 flex items-center justify-center">
+            <img
+              src="images/logo3-3.png"
+              alt="Logo 1"
+              class="max-w-full max-h-full"
+            />
+          </div>
+          <div class="p-4 flex items-center justify-center">
+            <img
+              src="images/logo4-1.png"
+              alt="Logo 1"
+              class="max-w-full max-h-full"
+            />
+          </div>
+          <div class="p-4 flex items-center justify-center">
+            <img
+              src="images/logo4-2.png"
+              alt="Logo 1"
+              class="max-w-full max-h-full"
+            />
+          </div>
+          <div class="p-4 flex items-center justify-center">
+            <img
+              src="images/logo4-3.png"
+              alt="Logo 1"
+              class="max-w-full max-h-full"
+            />
+          </div>
+          <!-- slut på grid-div -->
+        </div>
+        <!-- slut på container-div -->
+      </div>
+      <!-- slut på sektion5-div -->
+    </div>
+
+    <!-- sektion 6 - get started -->
+    <div
+      class="pt-6 bg-teal-100 w-screen h-80 md:flex-col items-center justify-center text-center"
+    >
+      <h2 class="mt-10 text-teal-800 font-thin text-6xl">
+        Redo att komma igång?
+      </h2>
+      <div class="mt-12 md:flex-col w-screen items-center justify-center">
+        <button
+          class="m-2 p-2 text-white font-thin text-2xl bg-teal-700 rounded-lg"
+        >
+          Planer och Priser
+        </button>
+        <button
+          class="m-2 p-2 text-white font-thin text-2xl bg-teal-800 rounded-lg"
+        >
+          Registrera Dig, Det Är Gratis
+        </button>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="pt-6 w-screen bg-teal-950 h-auto text-white">
+      <!-- div-container med 4 kolumner -->
+      <div class="flex flex-wrap justify-center">
+        <!-- Column 1 -->
+        <div class="text-left w-1/5 px-4">
+          <h4 class="font-bold pb-2">Om</h4>
+          <ul>
+            <li>Zoom-blogg</li>
+            <li>Kunder</li>
+            <li>Vårt team</li>
+            <li>Jobbmöjligheter</li>
+            <li>Integrationer</li>
+            <li>Partner</li>
+            <li>Investerare</li>
+            <li>Tryck</li>
+            <li>Hållbarhet och ESG</li>
+            <li>Mediakit</li>
+            <li>Steg-för-steg-videor</li>
+            <li>Utvecklarplattform</li>
+          </ul>
+        </div>
+
+        <!-- Column 2 -->
+        <div class="text-left w-1/5 px-4">
+          <h4 class="font-bold pb-2">Ladda ner</h4>
+          <ul>
+            <li>Mötesklient</li>
+            <li>Zoom Rooms-klient</li>
+            <li>Zoom Rooms Controller</li>
+            <li>Webbläsartillägg</li>
+            <li>Insticksprogram för Outlook</li>
+            <li>Android-app</li>
+            <li>Virtuella Zoom-bakgrunder</li>
+          </ul>
+        </div>
+
+        <!-- Column 3 -->
+        <div class="text-left w-1/5 px-4">
+          <h4 class="font-bold pb-2">Försäljning</h4>
+          <ul>
+            <li>1.888.799.9666</li>
+            <li>Kontakta säljavdelningen</li>
+            <li>Planer och priser</li>
+            <li>Begär en demo</li>
+            <li>Webbinarier och evenemang</li>
+          </ul>
+        </div>
+
+        <!-- Column 4 -->
+        <div class="text-left w-1/5 px-4">
+          <h4 class="font-bold pb-2">Support</h4>
+          <ul>
+            <li>Testa Zoom</li>
+            <li>Konto</li>
+            <li>Supportcenter</li>
+            <li>Utbildningscenter</li>
+            <li>Zoom-community</li>
+            <li>Kontakta oss</li>
+            <li>Tillgänglighet</li>
+            <li>Utvecklarsupport</li>
+            <li>
+              Transparensmeddelande om integritet, säkerhet, juridiska policyer
+              och modernt slaveri
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- liggande div -->
+      <div class="flex-col w-screen">
+        <div class="text-center py-6">
+          <p class="text-sm">
+            Upphovsrätt ©2023 Zoom Video Communications, Inc. Med ensamrätt.
+            Villkor | Integritet | Säkerhetscenter | Riktlinjer för acceptabel
+            användning | Lagar och regelefterlevnad | Sälj/dela inte mina
+            personuppgifter | Cookieinställningar
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
